@@ -1,4 +1,4 @@
-/* BURGERRRRRRRRRRRRR*/
+/* CLASSIQUUUEEEEEEEEEEEEEE*/
 * {
     margin: 0;
     padding: 0;
@@ -10,26 +10,26 @@
     overflow: hidden; /* Empêche le défilement de la page si vous ne voulez pas de scrollbar */
   }
     
-/* SMASH BURGEEERRRRRRRRRR */
+/* KEBAAAABBBBBBBBBBB*/
 
-.backSmash {
+.backKebab {
     height: 100vh;
     width: 100vw;
     display: flex;
-    background-image: url(img/burgersmash.png);
+    background-image: url(img/lekebab.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
   }
   
-  .titresmash {
+  .titrekebab {
     width: 50vw;
     height: 100vh;
     color: #5A7C2A;
   }
   
-  .h2smash {
+  .h2kebab {
     height: 65vh;
     width: 50vw;
     margin-left: -3vw;
@@ -38,7 +38,7 @@
   .h2{
     font-size: 1.8em;
   }
-  .descriptionSmash{
+  .descriptionKebab{
     color: white;
     font-size: 1.2em;
     width: 40vw;
@@ -140,27 +140,30 @@
     border: 3px solid white
   }
 
-
-  /* BURGER SIMPLEEEEEEEEEE */
-
-.backSimple {
+     
+/* PANINIIIIIIIIIIIII*/
+.titrepanini, .titresupp {
+    flex: 1; /* Donne aux conteneurs une flexibilité pour utiliser l'espace disponible */
+    width: 100%; /* Assurez-vous que les conteneurs utilisent toute la largeur */
+}
+.backPanini {
     height: 100vh;
     width: 100vw;
     display: flex;
-    background-image: url(img/burgersimpe.png);
+    background-image: url(img/lepanini.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
   }
   
-  .titresimple {
+  .titrepanini {
     width: 50vw;
     height: 100vh;
     color: #5A7C2A;
   }
   
-  .h2simple {
+  .h2panini {
     height: 65vh;
     width: 50vw;
     margin-left: -3vw;
@@ -169,12 +172,12 @@
   .h2{
     font-size: 1.8em;
   }
-  .descriptionSimple{
+  .descriptionPanini{
     color: white;
     font-size: 1.2em;
     width: 40vw;
     margin-left: 5vw;
-    margin-top: 3vh;
+    margin-top: 5vh;
   }
   .prix-container {
     height: 35vh;
@@ -223,35 +226,47 @@
   .titresupp {
     width: 50vw;
     height: 100vh;
-   
   }
-  
-  .h2supp{
-    height: 20vh;
+  .h2viande{
+    height: 10vh;
     width: 50vw;
     color: #5A7C2A;
     font-size: 1.8em;
     margin-top: 5vh;
   }
-  .suppléments{
-    height: 45vh;
+  .viandes{
+    height: 30vh;
     width: 35vw;
-    margin-top: 10vh;
     margin-left: 7vw;
+  }
+  .viandes img{
+    height: 100px; 
+  }
   
+  .h2supp{
+    height: 10vh;
+    width: 50vw;
+    color: #5A7C2A;
+    font-size: 1.8em;
+    margin-top: -2vh;
+  }
+  .suppléments{
+    height: 30vh;
+    width: 35vw;
+    margin-top: -3vh;
+    margin-left: 7vw;
   }
   
   .suppléments img{
-    height: 100px;
-   
+    height: 100px; 
   }
   
   .optionsupp{
-    height: 35vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px; 
+    /* gap: 5px;  */
     margin-top: -5vh;
   }
   .optionsupp span{
@@ -272,26 +287,30 @@
   }
 
 
-  /* ROYAL BURGERRRRRRRRRRR*/
-
-.backRoyal {
+     
+/* SANDWIICHHHHHHHHHHHHHHHHHH*/
+.titrepanini, .titresupp {
+    flex: 1; /* Donne aux conteneurs une flexibilité pour utiliser l'espace disponible */
+    width: 100%; /* Assurez-vous que les conteneurs utilisent toute la largeur */
+}
+.backSandwich {
     height: 100vh;
     width: 100vw;
     display: flex;
-    background-image: url(img/burgerroyal.png);
+    background-image: url(img/lesandwich.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
   }
   
-  .titreroyal {
+  .titresandwich {
     width: 50vw;
     height: 100vh;
     color: #5A7C2A;
   }
   
-  .h2royal {
+  .h2sandwich {
     height: 65vh;
     width: 50vw;
     margin-left: -3vw;
@@ -300,12 +319,12 @@
   .h2{
     font-size: 1.8em;
   }
-  .descriptionRoyal{
+  .descriptionSandwich{
     color: white;
     font-size: 1.2em;
     width: 40vw;
     margin-left: 5vw;
-    margin-top: 3vh;
+    margin-top: 5vh;
   }
   .prix-container {
     height: 35vh;
@@ -354,35 +373,47 @@
   .titresupp {
     width: 50vw;
     height: 100vh;
-   
   }
-  
-  .h2supp{
-    height: 20vh;
+  .h2chaud{
+    height: 10vh;
     width: 50vw;
     color: #5A7C2A;
     font-size: 1.8em;
     margin-top: 5vh;
   }
-  .suppléments{
-    height: 45vh;
+  .sandwichchaud{
+    height: 30vh;
     width: 35vw;
-    margin-top: 10vh;
     margin-left: 7vw;
-  
+  }
+  .sandwichchaud img{
+    height: 100px; 
   }
   
-  .suppléments img{
-    height: 100px;
-   
+  .h2froid{
+    height: 10vh;
+    width: 50vw;
+    color: #5A7C2A;
+    font-size: 1.8em;
+    margin-top: -2vh;
+  }
+  .sandwichfroid{
+    height: 30vh;
+    width: 35vw;
+    margin-top: -3vh;
+    margin-left: 7vw;
+  }
+  
+  .sandwichfroid img{
+    height: 100px; 
   }
   
   .optionsupp{
-    height: 35vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px; 
+    /* gap: 5px;  */
     margin-top: -5vh;
   }
   .optionsupp span{
@@ -402,27 +433,30 @@
     border: 3px solid white
   }
 
-  
-  /* CHICKEN BURGERRRRRRRRRRR*/
 
-.backChicken {
+  /* GALETTEEEEEEEEEEEE */
+.titrepanini, .titresupp {
+    flex: 1; /* Donne aux conteneurs une flexibilité pour utiliser l'espace disponible */
+    width: 100%; /* Assurez-vous que les conteneurs utilisent toute la largeur */
+}
+.backGalette {
     height: 100vh;
     width: 100vw;
     display: flex;
-    background-image: url(img/chickenburger.png);
+    background-image: url(img/lagalette.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
   }
   
-  .titrechicken {
+  .titregalette {
     width: 50vw;
     height: 100vh;
     color: #5A7C2A;
   }
   
-  .h2chicken {
+  .h2galette {
     height: 65vh;
     width: 50vw;
     margin-left: -3vw;
@@ -431,12 +465,12 @@
   .h2{
     font-size: 1.8em;
   }
-  .descriptionChicken{
+  .descriptionGalette{
     color: white;
     font-size: 1.2em;
     width: 40vw;
     margin-left: 5vw;
-    margin-top: 3vh;
+    margin-top: 5vh;
   }
   .prix-container {
     height: 35vh;
@@ -485,35 +519,47 @@
   .titresupp {
     width: 50vw;
     height: 100vh;
-   
   }
-  
-  .h2supp{
-    height: 20vh;
+  .h2viande{
+    height: 10vh;
     width: 50vw;
     color: #5A7C2A;
     font-size: 1.8em;
     margin-top: 5vh;
   }
-  .suppléments{
-    height: 45vh;
+  .viandes{
+    height: 30vh;
     width: 35vw;
-    margin-top: 10vh;
     margin-left: 7vw;
+  }
+  .viandes img{
+    height: 100px; 
+  }
   
+  .h2supp{
+    height: 10vh;
+    width: 50vw;
+    color: #5A7C2A;
+    font-size: 1.8em;
+    margin-top: -2vh;
+  }
+  .suppléments{
+    height: 30vh;
+    width: 35vw;
+    margin-top: -3vh;
+    margin-left: 7vw;
   }
   
   .suppléments img{
-    height: 100px;
-   
+    height: 100px; 
   }
   
   .optionsupp{
-    height: 35vh;
+    height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 5px; 
+    /* gap: 5px;  */
     margin-top: -5vh;
   }
   .optionsupp span{
@@ -533,28 +579,27 @@
     border: 3px solid white
   }
 
-  
-  
-  /* FISH BURGERRRRRRRRRRR*/
+   
+/* MENU ENFANT */
 
-.backFish {
+.backEnfant {
     height: 100vh;
     width: 100vw;
     display: flex;
-    background-image: url(img/burgerfish.png);
+    background-image: url(img/menuenfant.png);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
   }
   
-  .titrefish {
+  .titreenfant {
     width: 50vw;
     height: 100vh;
-    color: #5A7C2A;
+    color: orange;
   }
   
-  .h2fish {
+  .h2enfant {
     height: 65vh;
     width: 50vw;
     margin-left: -3vw;
@@ -563,12 +608,12 @@
   .h2{
     font-size: 1.8em;
   }
-  .descriptionFish{
+  .descriptionEnfant{
     color: white;
     font-size: 1.2em;
     width: 40vw;
     margin-left: 5vw;
-    margin-top: 3vh;
+    margin-top: 5vh;
   }
   .prix-container {
     height: 35vh;
@@ -614,20 +659,20 @@
   }
   
   
-  .titresupp {
+  .titresupp2 {
     width: 50vw;
     height: 100vh;
    
   }
   
-  .h2supp{
+  .h2supp2{
     height: 20vh;
     width: 50vw;
-    color: #5A7C2A;
+    color: orange;
     font-size: 1.8em;
     margin-top: 5vh;
   }
-  .suppléments{
+  .suppléments2{
     height: 45vh;
     width: 35vw;
     margin-top: 10vh;
@@ -635,12 +680,12 @@
   
   }
   
-  .suppléments img{
+  .suppléments2 img{
     height: 100px;
    
   }
   
-  .optionsupp{
+  .optionsupp2{
     height: 35vh;
     display: flex;
     flex-direction: column;
@@ -648,11 +693,11 @@
     gap: 5px; 
     margin-top: -5vh;
   }
-  .optionsupp span{
+  .optionsupp2 span{
     font-size: 1.5em;
     color: #C2402D;
   }
-  .optionsupp p{
+  .optionsupp2 p{
     height: 70px;
     width: 70px;
     font-size: 1.4em;
@@ -665,4 +710,3 @@
     border: 3px solid white
   }
 
-  
