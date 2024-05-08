@@ -95,14 +95,17 @@
    
   }
   
-  .h2supp{
+
+  
+ 
+  .h2suppKebab{
     height: 20vh;
     width: 50vw;
     color: #5A7C2A;
     font-size: 1.8em;
     margin-top: 5vh;
   }
-  .suppléments{
+  .supplémentsKebab{
     height: 45vh;
     width: 35vw;
     margin-top: 10vh;
@@ -110,7 +113,7 @@
   
   }
   
-  .suppléments img{
+  .supplémentsKebab img{
     height: 100px;
    
   }
@@ -139,6 +142,8 @@
     border-radius: 50%;
     border: 3px solid white
   }
+
+
 
      
 /* PANINIIIIIIIIIIIII*/
