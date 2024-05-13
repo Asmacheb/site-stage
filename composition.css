@@ -118,13 +118,13 @@
     width: 50vw;
     color: #5A7C2A;
     font-size: 1.8em;
-    margin-top: -2vh;
+    margin-top: 40px;
   }
   .supplémentsTacos{
     height: 30vh;
     width: 35vw;
-    margin-top: -3vh;
-    margin-left: 7vw;
+    margin-top: -20px;
+    margin-left: 90px;
   }
   
   .supplémentsTacos img{
@@ -267,14 +267,14 @@
     font-size: 1.8em;
     margin-top: -2vh;
   }
-  .suppléments{
+  .supplémentsTacosbowl{
     height: 30vh;
     width: 35vw;
-    margin-top: -3vh;
-    margin-left: 7vw;
+    margin-top: -100px;
+    margin-left: 90px;
   }
   
-  .suppléments img{
+  .supplémentsTacosbowl img{
     height: 100px; 
   }
   
@@ -413,14 +413,14 @@
     font-size: 1.8em;
     margin-top: -2vh;
   }
-  .suppléments{
+  .supplémentsKapsalon{
     height: 30vh;
     width: 35vw;
-    margin-top: -3vh;
+    margin-top: -100px;
     margin-left: 7vw;
   }
   
-  .suppléments img{
+  .supplémentsKapsalon img{
     height: 100px; 
   }
   
@@ -558,7 +558,7 @@
     width: 50vw;
     color: #5A7C2A;
     font-size: 1.8em;
-    margin-top: -2vh;
+    margin-top: 40px;
   }
   .supplémentsassiette{
     height: 30vh;

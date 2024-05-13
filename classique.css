@@ -239,12 +239,12 @@
     font-size: 1.8em;
     margin-top: 5vh;
   }
-  .viandes{
+  .viandesPanini{
     height: 30vh;
     width: 35vw;
-    margin-left: 7vw;
+   
   }
-  .viandes img{
+  .viandesPanini img{
     height: 100px; 
   }
   
@@ -255,14 +255,14 @@
     font-size: 1.8em;
     margin-top: -2vh;
   }
-  .suppléments{
+  .supplémentsPanini{
     height: 30vh;
     width: 35vw;
     margin-top: -3vh;
-    margin-left: 7vw;
+   
   }
   
-  .suppléments img{
+  .supplémentsPanini img{
     height: 100px; 
   }
   
@@ -417,7 +417,14 @@
   width: 100%;
   align-items: center;
 }
-
+.h2suppSandwich{
+  height: 10vh;
+    width: 50vw;
+    color: #5A7C2A;
+    font-size: 1.8em;
+    margin-top: 50px;
+  margin-top: -3px;
+}
  .optionsuppSandwich{
     height: 20vh;
     display: flex;
@@ -541,12 +548,12 @@
     font-size: 1.8em;
     margin-top: 5vh;
   }
-  .viandes{
+  .viandesGalette{
     height: 30vh;
     width: 35vw;
-    margin-left: 7vw;
+   
   }
-  .viandes img{
+  .viandesGalette img{
     height: 100px; 
   }
   
@@ -555,16 +562,16 @@
     width: 50vw;
     color: #5A7C2A;
     font-size: 1.8em;
-    margin-top: -2vh;
+    margin-top: 50px;
   }
-  .suppléments{
+  .supplémentsGalette{
     height: 30vh;
     width: 35vw;
     margin-top: -3vh;
-    margin-left: 7vw;
+    
   }
   
-  .suppléments img{
+  .supplémentsGalette img{
     height: 100px; 
   }
   
