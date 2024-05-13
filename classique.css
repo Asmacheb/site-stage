@@ -348,18 +348,6 @@
     margin-left: 13vw;
   }
   
-  .option {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: -12vh;
-    gap: 5px; /* Espacement entre le texte et le cercle */
-  }
-  
-  .option span {
-    font-size: 1.5em;
-    color: #5A7C2A; /* Ajustez la couleur pour correspondre au thème */
-  }
   
   .prix p {
     height: 70px;
@@ -374,58 +362,74 @@
     border: 3px solid white;
   }
   
-  
+ 
+
   .titresupp {
-    width: 50vw;
-    height: 100vh;
-  }
-  .h2chaud{
-    height: 10vh;
-    width: 50vw;
+    display: flex;
+    justify-content: space-around; /* Pour espacer les sections chaud et froid */
+    width:50vw;
+}
+
+.sectiontotal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw; 
+    margin-left: 20vw;
+}
+
+.h2chaud, .h2froid {
     color: #5A7C2A;
     font-size: 1.8em;
-    margin-top: 5vh;
-  }
-  .sandwichchaud{
-    height: 30vh;
-    width: 35vw;
-    margin-left: 7vw;
-  }
-  .sandwichchaud img{
-    height: 100px; 
-  }
-  
-  .h2froid{
-    height: 10vh;
-    width: 50vw;
-    color: #5A7C2A;
-    font-size: 1.8em;
-    margin-top: -2vh;
-  }
-  .sandwichfroid{
-    height: 30vh;
-    width: 35vw;
-    margin-top: -3vh;
-    margin-left: 7vw;
-  }
-  
-  .sandwichfroid img{
-    height: 100px; 
-  }
-  
-  .optionsupp{
+    width: 100%; /* Assure que le titre s'étend sur toute la largeur de la section */
+    text-align: center;
+}
+
+.sandwichchaud, .sandwichfroid {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sandwichchaud p, .sandwichfroid p {
+    font-size: 1.3em;
+    color: white;
+    padding: 5px 0; /* Ajoute un peu d'espacement vertical entre les éléments */
+}
+.sectionfroid{
+  margin-left: 105px;
+}
+.cotée2{
+  height: 50vh;
+  width: 50vw;
+}
+.titresupp, .cotée2 {
+  width: 100%; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.sectiontotal{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+}
+
+ .optionsuppSandwich{
     height: 20vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* gap: 5px;  */
-    margin-top: -5vh;
+    margin-top: 40px;
   }
-  .optionsupp span{
+  .optionsuppSandwich span{
     font-size: 1.5em;
     color: #C2402D;
   }
-  .optionsupp p{
+  .optionsuppSandwich p{
     height: 70px;
     width: 70px;
     font-size: 1.4em;
@@ -438,6 +442,11 @@
     border: 3px solid white
   }
 
+  .supplémentsSandwich{
+    margin-left: -5px;
+    margin-top: -25px;
+    width: 40vw;
+  }
 
   /* GALETTEEEEEEEEEEEE */
 .titrepanini, .titresupp {
@@ -715,3 +724,38 @@
     border: 3px solid white
   }
 
+  .item {
+    position: relative;
+    display: inline-block;
+    width: 120px;
+    height: 100px;
+    overflow: hidden; /* Maintenu pour le zoom mais vérifiez son impact sur les labels */
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.item:hover img {
+    transform: scale(1.3);
+}
+
+.label {
+    position: absolute;
+    z-index: 10;
+    bottom: 10px;
+    left: 0;
+    right: 0; /* Assurez-vous que le label est centré horizontalement */
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Améliore la visibilité */
+    visibility: hidden;
+    font-size: 0.9em;
+    padding: 2px 0;
+}
+
+.item:hover .label {
+    visibility: visible;
+}
