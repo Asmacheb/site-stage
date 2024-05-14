@@ -456,6 +456,22 @@
   flex: 1; /* Donne aux conteneurs une flexibilité pour utiliser l'espace disponible */
   width: 100%; /* Assurez-vous que les conteneurs utilisent toute la largeur */
 }
+
+
+.burger-menu-container {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  z-index: 1000;
+}
+
+.burger-menu {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: none;
+}
+
 .backAssiette {
     height: 100vh;
     width: 100vw;
@@ -759,4 +775,567 @@
 
 .item:hover .label {
     visibility: visible;
+}
+
+
+/* RESPONSIVEEEEEEEEEEEEEEEEEEE */
+
+
+/* TACOOOSSSS */
+@media screen and (max-width: 767px){
+  .burger-menu {
+    display: block;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+  }
+
+  .backTacos {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img/backtelephone.png);
+    background-color: black;
+    display: flex;
+    flex-direction: column; /* Les enfants sont disposés en colonne */
+    align-items: center; /* Centre les enfants horizontalement */
+    padding: 0 20px; /* Ajout de padding pour ne pas que le contenu touche les bords */
+  }
+
+  .titretacos{
+    width: 100vw;
+    height: 20vh; /* Prend toute la largeur de la vue */
+    overflow: hidden; /* Évite le débordement hors de la vue */
+    
+  }
+  .titresupp{
+    width: 100vw;
+    height: 80vh;
+  }
+  .descriptionTacos {
+    width: 95vw;
+    height: 5vh; /* Utilisation de la largeur complète de l'écran */
+  }
+.prix-containerTacos{
+  height: 10vh;
+  width: 100vw;
+  margin-left: 50px;
+}
+.option span{
+    font-size: 1em;
+}
+.prix p{
+  height: 60px;
+  width: 60px;
+  font-size: 1em;
+}
+.prix{
+  height: 10vh;
+  width: 90vw;
+}
+  .h2 {
+    font-size: 1.2em;
+    height: 5vh; /* Taille de police adaptée pour mobile */
+  }
+
+  .h2tacos{
+    height: 20vh;
+    width: 100vw;
+  }
+  .h2viande{
+    font-size: 1.1em;
+    height: 10vh;
+    width: 100vw;
+    margin-top: -15vh;
+  }
+  .h2suppTacos{
+    font-size: 1.1em;
+    height: 10vh;
+    width: 100vw;
+  }
+
+
+  .supplémentsTacos img, .viandes img {
+    height: 45px;
+    width: 45px; 
+  }
+  .supplémentsTacos{
+    height: 15vh;
+    width: 90vw;
+  margin-left: 35px;
+  }
+.supplémentsTacos .item{
+  height: 65px;
+  width: 65px;
+}
+  .viandes{
+    height: 15vh;
+    width: 90vw;
+    margin-top: -35px;
+  }
+  .viandes .item{
+    height: 65px;
+    width: 65px;
+  }
+  .optionsupp{
+    height: 10vh;
+    width: 90vw;
+    margin-top: 15px;
+    gap: 10px;
+    margin-left: 20px;
+  }
+  .optionsupp span {
+    font-size: 1.1em; 
+  }
+
+  .optionsupp p {
+    height: 50px;
+    width: 50px;
+    font-size: 1em; /* Taille de police pour le prix */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.item:hover img {
+    transform: scale(1.3);
+}
+
+.label {
+    position: absolute;
+    z-index: 10;
+    bottom: 10px;
+    left: 0;
+    right: 0; /* Assurez-vous que le label est centré horizontalement */
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Améliore la visibilité */
+    visibility: hidden;
+    font-size: 0.9em;
+    padding: 2px 0;
+}
+}
+
+
+
+/* TACOSBOWLLLLLLLLLLLLLLL */
+@media screen and (max-width: 767px){
+  .burger-menu {
+    display: block;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+  }
+
+  .backTacosbowl {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img/backtelephone.png);
+    background-color: black;
+    display: flex;
+    flex-direction: column; /* Les enfants sont disposés en colonne */
+    align-items: center; /* Centre les enfants horizontalement */
+    padding: 0 20px; /* Ajout de padding pour ne pas que le contenu touche les bords */
+  }
+
+  .titretacosbowl{
+    width: 100vw;
+    height: 40vh; /* Prend toute la largeur de la vue */
+    overflow: hidden; /* Évite le débordement hors de la vue */
+    
+  }
+  .titresupp{
+    width: 100vw;
+    height: 60vh;
+    margin-top: 15vh;
+  }
+  .descriptionTacosbowl {
+    width: 95vw;
+    height: 5vh;
+    font-size: 1em; /* Utilisation de la largeur complète de l'écran */
+  }
+.prix-container{
+  height: 30vh;
+  width: 100vw;
+  margin-top: 5vh;
+  margin-left: 10vh;
+
+}
+.option span{
+    font-size: 1em;
+}
+.prix p{
+  height: 60px;
+  width: 60px;
+  font-size: 1em;
+}
+.prix{
+  height: 10vh;
+  width: 90vw;
+}
+  .h2 {
+    font-size: 1.2em;
+    height: 5vh; /* Taille de police adaptée pour mobile */
+  }
+
+  .h2tacosbowl{
+    height: 10vh;
+    width: 100vw;
+  }
+  .h2viande{
+    font-size: 1.1em;
+    height: 10vh;
+    width: 100vw;
+    margin-top: -15vh;
+  }
+  .h2supp{
+    font-size: 1.1em;
+    height: 10vh;
+    width: 100vw;
+   
+  }
+
+
+  .supplémentsTacosbowl img, .viandes img {
+    height: 45px;
+    width: 45px; 
+  }
+  .supplémentsTacosbowl{
+    height: 15vh;
+    width: 90vw;
+  margin-left: 35px;
+  margin-top: 5px;
+  }
+.supplémentsTacosbowl .item{
+  height: 65px;
+  width: 65px;
+}
+  .viandes{
+    height: 15vh;
+    width: 100vw;
+   
+  }
+  .viandes .item{
+    height: 65px;
+    width: 65px;
+  }
+  .optionsupp{
+    height: 10vh;
+    width: 90vw;
+    margin-top: 15px;
+    gap: 10px;
+    margin-left: 20px;
+  }
+  .optionsupp span {
+    font-size: 1.1em; 
+  }
+
+  .optionsupp p {
+    height: 50px;
+    width: 50px;
+    font-size: 1em; /* Taille de police pour le prix */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.item:hover img {
+    transform: scale(1.3);
+}
+
+.label {
+    position: absolute;
+    z-index: 10;
+    bottom: 10px;
+    left: 0;
+    right: 0; /* Assurez-vous que le label est centré horizontalement */
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Améliore la visibilité */
+    visibility: hidden;
+    font-size: 0.9em;
+    padding: 2px 0;
+}
+}
+
+
+
+
+/* ASSIETTEEEEEEEEE */
+@media screen and (max-width: 767px){
+  .burger-menu {
+    display: block;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+  }
+
+  .backAssiette {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img/backtelephone.png);
+    background-color: black;
+    display: flex;
+    flex-direction: column; /* Les enfants sont disposés en colonne */
+    align-items: center; /* Centre les enfants horizontalement */
+    padding: 0 20px; /* Ajout de padding pour ne pas que le contenu touche les bords */
+  }
+
+  .titreassiette{
+    width: 100vw;
+    height: 20vh; /* Prend toute la largeur de la vue */
+    overflow: hidden; /* Évite le débordement hors de la vue */
+    
+  }
+  .titresupp{
+    width: 100vw;
+    height: 80vh;
+  }
+  .descriptionAssiettes {
+    width: 95vw;
+    height: 5vh; /* Utilisation de la largeur complète de l'écran */
+  }
+.prix-containerAssiette{
+  height: 10vh;
+  width: 100vw;
+  margin-left: 10px;
+}
+.option span{
+    font-size: 1em;
+}
+.prix p{
+  height: 60px;
+  width: 60px;
+  font-size: 1em;
+}
+.prix{
+  height: 10vh;
+  width: 90vw;
+}
+  .h2 {
+    font-size: 1.2em;
+    height: 5vh; /* Taille de police adaptée pour mobile */
+  }
+
+  .h2assiette{
+    height: 20vh;
+    width: 100vw;
+  }
+  .h2viande{
+    font-size: 1.1em;
+    height: 10vh;
+    width: 100vw;
+    margin-top: -15vh;
+  }
+  .h2suppAssiette{
+    font-size: 1.1em;
+    height: 10vh;
+    width: 100vw;
+  }
+
+
+  .supplémentsassiette img, .viandes img {
+    height: 45px;
+    width: 45px; 
+  }
+  .supplémentsassiette{
+    height: 15vh;
+    width: 90vw;
+  }
+.supplémentsassiette .item{
+  height: 65px;
+  width: 65px;
+}
+  .viandes{
+    height: 15vh;
+    width: 90vw;
+    margin-top: -35px;
+  }
+  .viandes .item{
+    height: 65px;
+    width: 65px;
+  }
+  .optionsupp{
+    height: 10vh;
+    width: 90vw;
+    margin-top: 15px;
+    gap: 10px;
+    margin-left: 20px;
+  }
+  .optionsupp span {
+    font-size: 1.1em; 
+  }
+
+  .optionsupp p {
+    height: 50px;
+    width: 50px;
+    font-size: 1em; /* Taille de police pour le prix */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.item:hover img {
+    transform: scale(1.3);
+}
+
+.label {
+    position: absolute;
+    z-index: 10;
+    bottom: 10px;
+    left: 0;
+    right: 0; /* Assurez-vous que le label est centré horizontalement */
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Améliore la visibilité */
+    visibility: hidden;
+    font-size: 0.9em;
+    padding: 2px 0;
+}
+}
+
+
+/* CARNONNADEEE */
+@media screen and (max-width: 767px){
+  .burger-menu {
+    display: block;
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+  }
+
+  .backCarbonnade {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img/backtelephone.png);
+    background-color: black;
+    display: flex;
+    flex-direction: column; /* Les enfants sont disposés en colonne */
+    align-items: center; /* Centre les enfants horizontalement */
+    padding: 0 20px; /* Ajout de padding pour ne pas que le contenu touche les bords */
+  }
+
+  .titrecarbonnade{
+    width: 100vw;
+    height: 40vh; /* Prend toute la largeur de la vue */
+    overflow: hidden; /* Évite le débordement hors de la vue */
+    
+  }
+  .titresupp{
+    width: 100vw;
+    height: 60vh;
+  }
+  .descriptionCarbonnade {
+    width: 95vw;
+    height: 5vh; /* Utilisation de la largeur complète de l'écran */
+  }
+.prix-container{
+  height: 15vh;
+  width: 100vw;
+
+}
+.option span{
+    font-size: 1em;
+}
+.prix p{
+  height: 60px;
+  width: 60px;
+  font-size: 1em;
+}
+.prix{
+  height: 15vh;
+  width: 90vw;
+}
+  .h2 {
+    font-size: 1.2em;
+    height: 5vh; 
+    width: 100vw;
+  }
+
+ 
+  .h2supp{
+    font-size: 1.1em;
+    height: 10vh;
+    width: 100vw;
+ 
+  }
+
+
+  .suppléments img {
+    height: 45px;
+    width: 45px; 
+  }
+  .suppléments{
+    height: 15vh;
+    width: 90vw;
+  }
+.suppléments .item{
+  height: 65px;
+  width: 65px;
+}
+ 
+  .optionsupp{
+    height: 10vh;
+    width: 90vw;
+    margin-top: 15px;
+    gap: 10px;
+    margin-left: 20px;
+  }
+  .optionsupp span {
+    font-size: 1.1em; 
+  }
+
+  .optionsupp p {
+    height: 50px;
+    width: 50px;
+    font-size: 1em; /* Taille de police pour le prix */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .item img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.item:hover img {
+    transform: scale(1.3);
+}
+
+.label {
+    position: absolute;
+    z-index: 10;
+    bottom: 10px;
+    left: 0;
+    right: 0; /* Assurez-vous que le label est centré horizontalement */
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Améliore la visibilité */
+    visibility: hidden;
+    font-size: 0.9em;
+    padding: 2px 0;
+}
 }
