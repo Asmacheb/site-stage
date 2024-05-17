@@ -1,3 +1,6 @@
+
+ <?php include 'lesCompositions.php'; ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -50,11 +53,11 @@
   <div class="menu-section2">
     <h2 class="menu-title2">LES COMPOSITIONS</h2>
     <div class="compositions">
-      <a href="tacos.html"><img src="img/tacos.png" alt="Tacos"></a>
-      <a href="tacosbowl.html"><img src="img/tacosbowl.png" alt="Tacos Bowl"></a>
-      <a href="assiettes.html"><img src="img/assiette.png" alt="Assiette"></a>
-      <a href="kapsalon.html"><img src="img/kapsalon.png" alt="Kapsalon"></a>
-      <a href="carbonnade.html"><img src="img/carbonnade.png" alt="Carbonnade"></a>
+      <a href="#Tacos"><img src="img/tacos.png" alt="Tacos"></a>
+      <a href="#Tacosbowl"><img src="img/tacosbowl.png" alt="Tacos Bowl"></a>
+      <a href="#Assiette"><img src="img/assiette.png" alt="Assiette"></a>
+      <a href="#Kapsalon"><img src="img/kapsalon.png" alt="Kapsalon"></a>
+      <a href="#Carbonnade"><img src="img/carbonnade.png" alt="Carbonnade"></a>
     </div>
   </div>
   
